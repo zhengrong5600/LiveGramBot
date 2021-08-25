@@ -60,7 +60,7 @@ UN_BAN_COMMAND = get_config("UN_BAN_COMMAND", "unban")
 START_COMMAND = get_config("START_COMMAND", "start")
 # default message in-case of None types
 DEFAULT_START_TEXT = (
-    "你好，你现在可以与我对话了。"
+    "你好，我是程源机器人2.0\n这是一个私聊机器人\n有什么问题可以在此发送消息，之后我会回复的\n谢谢😃😊。"
 )
 # /start message when other users start your bot
 START_OTHER_USERS_TEXT = int(get_config(
@@ -71,7 +71,7 @@ START_OTHER_USERS_TEXT = int(get_config(
 ONLINE_CHECK_START_TEXT = get_config(
     "ONLINE_CHECK_START_TEXT",
     (
-        "你好，你可以发送消息了"
+        "你好，我是程源机器人2.0\n这是一个私聊机器人\n有什么问题可以在此发送消息，之后我会回复的\n谢谢😃😊"
     )
 )
 # message to indicate,
@@ -92,7 +92,7 @@ DERP_USER_S_TEXT = get_config(
 IS_BLACK_LIST_ED_MESSAGE_TEXT = get_config(
     "IS_BLACK_LIST_ED_MESSAGE_TEXT",
     (
-        "你现在已经被： <b>封锁</b> 时长：永远.\n\n"
+        "你现在已经被： <b>封锁</b> \n时长：永远.\n\n"
         "<u>原因</u>: <code>{reason}</code>"
     )
 )
