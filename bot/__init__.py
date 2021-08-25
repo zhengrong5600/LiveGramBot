@@ -92,7 +92,7 @@ DERP_USER_S_TEXT = get_config(
 IS_BLACK_LIST_ED_MESSAGE_TEXT = get_config(
     "IS_BLACK_LIST_ED_MESSAGE_TEXT",
     (
-        "你现在已经把： <b>封锁</b> forever.\n\n"
+        "你现在已经被： <b>封锁</b> 时长：永远.\n\n"
         "<u>原因</u>: <code>{reason}</code>"
     )
 )
@@ -105,14 +105,14 @@ REASON_DE_LIMIT_ER = get_config(
 IS_UN_BANED_MESSAGE_TEXT = get_config(
     "IS_UN_BANED_MESSAGE_TEXT",
     (
-        "你已经把 <b>解禁了</b>.\n\n"
+        "你已经被 <b>解禁了</b>.\n\n"
         "<u>原因</u>: <code>{reason}</code>"
     )
 )
 # message to show if bot was blocked by user
 BOT_WS_BLOCKED_BY_USER = get_config(
     "BOT_WS_BLOCKED_BY_USER",
-    "机器人被此用户阻止。"
+    "机器人被阻止了。"
 )
 # path to store LOG files
 LOG_FILE_ZZGEVC = get_config("LOG_FILE_ZZGEVC", "NoPMsBot.log")
