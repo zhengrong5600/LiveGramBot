@@ -60,9 +60,7 @@ UN_BAN_COMMAND = get_config("UN_BAN_COMMAND", "unban")
 START_COMMAND = get_config("START_COMMAND", "start")
 # default message in-case of None types
 DEFAULT_START_TEXT = (
-    "Hay, silahkan ketik pesanmu dibawah ini, nanti saya akan membalasanya Jika sudah online.\n"
-    "───────────────────────\n"
-    "©Manage by : @Vckyouubitch"
+    "你好，你现在可以与我对话了。"
 )
 # /start message when other users start your bot
 START_OTHER_USERS_TEXT = int(get_config(
@@ -73,8 +71,7 @@ START_OTHER_USERS_TEXT = int(get_config(
 ONLINE_CHECK_START_TEXT = get_config(
     "ONLINE_CHECK_START_TEXT",
     (
-        "Sistem berfungsi <b>master</b>\n"
-        "Jangan lupa join [Channel Support](https://t.me/Vckyouuu)"
+        "你好，你可以发送消息了"
     )
 )
 # message to indicate,
@@ -83,8 +80,7 @@ ONLINE_CHECK_START_TEXT = get_config(
 DELETED_MESSAGES_NOTIFICATION_TEXT = get_config(
     "DELETED_MESSAGES_NOTIFICATION_TEXT",
     (
-        "Pesan ini sudah dihapus\n"
-        "Jangan lupa Join [Channel Support](https://t.me/Vckyouuu)"
+        "数据已经被清除"
     )
 )
 # IDEKWBYRW
@@ -96,8 +92,8 @@ DERP_USER_S_TEXT = get_config(
 IS_BLACK_LIST_ED_MESSAGE_TEXT = get_config(
     "IS_BLACK_LIST_ED_MESSAGE_TEXT",
     (
-        "Kamu telah di <b>banned</b> forever.\n\n"
-        "<u>Alasan</u>: <code>{reason}</code>"
+        "你现在已经把： <b>封锁</b> forever.\n\n"
+        "<u>原因</u>: <code>{reason}</code>"
     )
 )
 # IDEKWBYRW
@@ -109,14 +105,14 @@ REASON_DE_LIMIT_ER = get_config(
 IS_UN_BANED_MESSAGE_TEXT = get_config(
     "IS_UN_BANED_MESSAGE_TEXT",
     (
-        "Kamu telah di <b>un-banned</b>.\n\n"
-        "<u>Alasan</u>: <code>{reason}</code>"
+        "你已经把 <b>解禁了</b>.\n\n"
+        "<u>原因</u>: <code>{reason}</code>"
     )
 )
 # message to show if bot was blocked by user
 BOT_WS_BLOCKED_BY_USER = get_config(
     "BOT_WS_BLOCKED_BY_USER",
-    "Bot diblokir oleh pengguna ini."
+    "机器人被此用户阻止。"
 )
 # path to store LOG files
 LOG_FILE_ZZGEVC = get_config("LOG_FILE_ZZGEVC", "NoPMsBot.log")
